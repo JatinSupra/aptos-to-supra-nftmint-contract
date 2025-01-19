@@ -1,0 +1,20 @@
+[package]
+name = "digital_asset_launchpad"
+version = "1.0.0"
+authors = []
+
+[addresses]
+launchpad_addr = "0x1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05"
+initial_creator_addr = "0x1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05"
+minter = "_"
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dependencies]
+AptosTokenObjects = { git = "https://github.com/Entropy-Foundation/aptos-core.git", rev = "dev", subdir = "aptos-move/framework/aptos-token-objects" }
+TokenMinter = { git = "https://github.com/JatinSupra/token-minter.git", rev = "main", subdir = "token-minter" }
+
+[dev-dependencies]

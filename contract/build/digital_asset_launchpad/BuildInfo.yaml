@@ -1,0 +1,62 @@
+---
+compiled_package_info:
+  package_name: digital_asset_launchpad
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_fungible_asset: 000000000000000000000000000000000000000000000000000000000000000a
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    aptos_token_objects: "0000000000000000000000000000000000000000000000000000000000000004"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    initial_creator_addr: 1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05
+    launchpad_addr: 1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05
+    migration: 1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05
+    minter: 1c5acf62be507c27a7788a661b546224d806246765ff2695efece60194c6df05
+    minter_v2: c77384471f05a5d1008d313c3d198d87b0635d8db5673b9e6d735e9a5d6ae35e
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    supra_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm: "0000000000000000000000000000000000000000000000000000000000000000"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 4D09643AE13D21D898D2B0223296898352383B66183F47F0A48093AE584579DC
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    override_std: ~
+    generate_docs: false
+    generate_abis: false
+    generate_move_model: true
+    full_model_generation: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    compiler_config:
+      bytecode_version: ~
+      known_attributes:
+        - bytecode_instruction
+        - deprecated
+        - event
+        - expected_failure
+        - "fmt::skip"
+        - legacy_entry_fun
+        - "lint::allow_unsafe_randomness"
+        - native_interface
+        - randomness
+        - resource_group
+        - resource_group_member
+        - test
+        - test_only
+        - verify_only
+        - view
+      skip_attribute_checks: false
+      compiler_version: ~
+      language_version: ~
+dependencies:
+  - AptosStdlib
+  - AptosToken
+  - AptosTokenObjects
+  - MoveStdlib
+  - SupraFramework
+  - TokenMinter
